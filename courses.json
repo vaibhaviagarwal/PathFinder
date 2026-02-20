@@ -1,0 +1,41 @@
+[
+    { "subject": "CS", "number": "115", "title": "Introduction to Computer Science 1", "prereq": [], "coreq": [], "antireq": ["CS135","CS145","CS137","CS138","ECE150","NE111","MSCI121","PHYS139","CIVE121","ME101","MSE121","MTE121","SYDE121","CHE121","GENE121","BME121"] },
+    { "subject": "CS", "number": "135", "title": "Designing Functional Programs", "prereq": [], "coreq": [], "antireq": ["CS115","CS145","CS137","CS138","ECE150","PHYS236","AE121","CIVE121","ME101","MSE121","SYDE121","BME121","MSCI121"] },
+    { "subject": "CS", "number": "145", "title": "Designing Functional Programs (Advanced)", "prereq": [], "coreq": [], "antireq": ["CS115","CS135","CS137","CS138"] },
+    { "subject": "CS", "number": "116", "title": "Introduction to Computer Science 2", "prereq": ["CS115","CS135","CS145"], "coreq": [], "antireq": ["CS114","CS136","CS137","CS138","CS146","MSE240","NE111","MSCI240","PHYS236","PHYS239"] },
+    { "subject": "CS", "number": "136", "title": "Elementary Algorithm Design and Data Abstraction", "prereq": ["CS115","CS116","CS135","CS145"], "coreq": ["CS136L"], "antireq": ["CS137","CS138","CS146","PHYS239"] },
+    { "subject": "CS", "number": "146", "title": "Elementary Algorithm Design and Data Abstraction (Advanced)", "prereq": ["CS145"], "coreq": ["CS136L"], "antireq": ["CS116","CS136","CS137","CS138"] },
+
+    { "subject": "MATH", "number": "106", "title": "Applied Linear Algebra 1", "prereq": ["MATH103","4U Calculus"], "coreq": [], "antireq": ["MATH114","MATH115","MATH136","MATH146","NE112"] },
+    { "subject": "MATH", "number": "136", "title": "Linear Algebra 1 for Honours Mathematics", "prereq": ["MATH135","MATH145"], "coreq": [], "antireq": ["MATH106","MATH114","MATH115","MATH146","NE112"] },
+    { "subject": "MATH", "number": "146", "title": "Linear Algebra 1 (Advanced)", "prereq": ["MATH145"], "coreq": [], "antireq": ["MATH106","MATH114","MATH115","MATH136","NE112"] },
+    { "subject": "MATH", "number": "127", "title": "Calculus 1 for the Sciences", "prereq": ["MATH104","4U Calculus"], "coreq": [], "antireq": ["MATH116","MATH117","MATH124","MATH137","MATH147","MATH109"] },
+    { "subject": "MATH", "number": "137", "title": "Calculus 1 for Honours Mathematics", "prereq": ["4U Calculus"], "coreq": [], "antireq": ["MATH116","MATH117","MATH127","MATH147"] },
+    { "subject": "MATH", "number": "147", "title": "Calculus 1 (Advanced)", "prereq": ["4U Calculus"], "coreq": [], "antireq": ["MATH116","MATH117","MATH124","MATH127","MATH137"] },
+    { "subject": "MATH", "number": "128", "title": "Calculus 2 for the Sciences", "prereq": ["MATH127","MATH137","MATH147","MATH116","MATH117"], "coreq": [], "antireq": ["MATH118","MATH119","MATH138","MATH148"] },
+    { "subject": "MATH", "number": "138", "title": "Calculus 2 for Honours Mathematics", "prereq": ["MATH147","MATH127","MATH137"], "coreq": [], "antireq": ["MATH118","MATH119","MATH128","MATH148"] },
+    { "subject": "MATH", "number": "148", "title": "Calculus 2 (Advanced)", "prereq": ["MATH147"], "coreq": [], "antireq": ["MATH118","MATH119","MATH128","MATH138"] },
+
+    { "subject": "MATH", "number": "135", "title": "Algebra for Honours Mathematics", "prereq": ["4U Calculus","4U Data"], "coreq": [], "antireq": ["MATH145"] },
+    { "subject": "MATH", "number": "145", "title": "Algebra (Advanced)", "prereq": ["4U Calculus","4U Data"], "coreq": [], "antireq": ["MATH135"] },
+
+    { "subject": "MATH", "number": "207", "title": "Calculus 3 (Non-Specialist)", "prereq": ["MATH128","MATH138","MATH148"], "coreq": [], "antireq": ["MATH217","MATH227","MATH237","MATH247","AMATH231","MATH212","NE217"] },
+    { "subject": "MATH", "number": "237", "title": "Calculus 3 for Honours Mathematics", "prereq": ["MATH136","MATH146","MATH128","MATH138","MATH148"], "coreq": [], "antireq": ["MATH207","MATH217","MATH227","MATH247","ECE206","MATH212"] },
+    { "subject": "MATH", "number": "247", "title": "Calculus 3 (Advanced)", "prereq": ["MATH146","MATH148"], "coreq": [], "antireq": ["MATH237"] },
+
+    { "subject": "MATH", "number": "229", "title": "Intro to Combinatorics (Non-Specialist)", "prereq": ["MATH106","MATH114","MATH115","MATH136","MATH146"], "coreq": [], "antireq": ["MATH239","MATH249","CO220"] },
+    { "subject": "MATH", "number": "239", "title": "Introduction to Combinatorics", "prereq": ["MATH135","MATH145","MATH136","MATH146"], "coreq": [], "antireq": ["MATH229","MATH249","CO220"] },
+    { "subject": "MATH", "number": "249", "title": "Introduction to Combinatorics (Advanced)", "prereq": ["MATH145","MATH135","MATH136","MATH146"], "coreq": [], "antireq": ["MATH229","MATH239","CO220"] },
+
+    { "subject": "MATH", "number": "225", "title": "Applied Linear Algebra 2", "prereq": ["MATH106","MATH136","MATH146"], "coreq": [], "antireq": ["MATH235","MATH245"] },
+    { "subject": "MATH", "number": "235", "title": "Linear Algebra 2 for Honours Mathematics", "prereq": ["MATH106","MATH136","MATH146"], "coreq": ["MATH128","MATH138","MATH148"], "antireq": ["MATH225","MATH245"] },
+    { "subject": "MATH", "number": "245", "title": "Linear Algebra 2 (Advanced)", "prereq": ["MATH146"], "coreq": [], "antireq": ["MATH225","MATH235"] },
+
+    { "subject": "STAT", "number": "220", "title": "Probability (Non-Specialist)", "prereq": ["MATH118","MATH119","MATH128","MATH138","MATH148"], "coreq": [], "antireq": ["STAT202","STAT230","STAT240"] },
+    { "subject": "STAT", "number": "230", "title": "Probability", "prereq": ["MATH116","MATH117","MATH137","MATH147","MATH128","MATH118","MATH119","MATH138","MATH148"], "coreq": [], "antireq": ["STAT220","STAT240"] },
+    { "subject": "STAT", "number": "240", "title": "Probability (Advanced)", "prereq": ["MATH137","MATH147","MATH138","MATH148"], "coreq": [], "antireq": ["STAT220","STAT230"] },
+    { "subject": "STAT", "number": "221", "title": "Statistics (Non-Specialist)", "prereq": ["MATH128","MATH138","MATH148","STAT220","STAT230","STAT240"], "coreq": [], "antireq": ["STAT231","STAT241"] },
+    { "subject": "STAT", "number": "231", "title": "Statistics", "prereq": ["MATH128","MATH138","MATH148","STAT220","STAT230","STAT240"], "coreq": [], "antireq": ["STAT221","STAT241"] },
+    { "subject": "STAT", "number": "241", "title": "Statistics (Advanced)", "prereq": ["MATH138","MATH148","STAT230","STAT240"], "coreq": [], "antireq": ["STAT221","STAT231"] }
+ ]
+

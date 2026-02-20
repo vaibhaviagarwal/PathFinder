@@ -1,0 +1,12 @@
+.DS_Store
+
+# Maven/Java build output
+target/
+*.class
+
+# IntelliJ project metadata
+*.iml
+.idea/
+
+# Logs
+*.log
